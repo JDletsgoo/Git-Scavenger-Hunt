@@ -32,11 +32,10 @@ git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR EMAIL"
 ```
 
-4. You may also enter these **recommended** commands to make things work just a bit smoother:
+4. It's also recommended that you change the default branch name to `main` with:
 
 ```
 git config --global init.defaultBranch main
-git config --global core.editor "nano -w"
 ```
 
 **Extra steps for Linux and macOS users:**
@@ -103,8 +102,6 @@ You now have a personal copy of this repository on your GitHut account. It's tim
 ```
 git clone https://your-fork.git
 ```
-
-If you tried to clone the repository and it asks you for a password, **you may need to install [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager/tree/main)** to proceed. But this should only happen if you're on Linux or macOS.
 
 ## 2. The Scavenger Hunt
 
