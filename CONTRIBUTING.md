@@ -71,7 +71,7 @@ Go to your repository on GitHub. You should see an option to create a Pull Reque
 
 When creating the PR:
 
-1. Make sure the **base branch** is `main`.
+1. Make sure the **base branch** is `main` and the selected repository is your fork.
 2. Make sure the **compare branch** is your feature branch.
 3. Give the PR a clear title describing your changes.
 4. Briefly explain what you changed.

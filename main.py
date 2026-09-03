@@ -19,7 +19,7 @@ class QuantumCalibrator:
     def defunc_the_defibrillator(self):
         print("[QuantumCalibrator] Defuncing the defibrillator...")
         time.sleep(0.3)
-        self.defibrillator_defunced = True # TODO: Remember to switch this back to true -Tom
+        self.defibrillator_defunced = False # TODO: Remember to switch this back to true -Tom
         if self.defibrillator_defunced:
             print("[QuantumCalibrator] Defibrillator successfully defunced.\n")
         else:
