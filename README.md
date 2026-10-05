@@ -1,6 +1,10 @@
 # Git Scavenger Hunt
 
-Welcome to the official *Git For Noobs!* scavenger hunt. This README file contains all the instructions you need to get started!
+Hey there, welcome to the scavenger hunt! 🥳
+
+This README file has everything you need to get started. Grab your team members and make sure to read it **CAREFULLY**!
+
+If you need help, please raise your hand and make sure to engage in intense eye contact with one of the volunteers.
 
 ## 1. Prerequisites
 
@@ -11,21 +15,23 @@ Welcome to the official *Git For Noobs!* scavenger hunt. This README file contai
 
 ## 1.1 Create a GitHub Account
 
-On GitHub, click **Sign Up** at the top of the page. You may use any email you want, just remember you will have to use the same one when you configure Git in [step 1.2](#11-install-git).
+On GitHub, click **Sign Up** at the top of the page. Any email will work for this. Just make sure to use the same email when you configure Git in the next section.
 
 ## 1.2 Install Git
 
-**Each participant needs to complete these steps:**
+**Each participant will need to complete these steps:**
 
-1. Check if Git is already installed by opening a terminal and entering:
+
+
+1. Check if Git is already installed by opening a terminal and entering the following command. If you're on Windows, it's recommended you install [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-GB&gl=CA) from the Microsoft Store.
 
 ```
 git --version
 ```
 
-2. If the command fails, install Git from here: https://git-scm.com/install/windows. **For Linux and macOS users:** Make sure you use the terminal commands from the other tabs.
+2. If the command fails, install Git from here: https://git-scm.com/install/windows
 
-3. Once installed, You will need to enter these commands into your terminal (Make sure to change the name and email):
+3. Once Git is installed, you will need to enter these commands into your terminal (Make sure to change the name and email):
 
 ```
 git config --global user.name "YOUR NAME"
@@ -100,29 +106,32 @@ You now have a personal copy of this repository on your GitHut account. It's tim
 2. Now clone the repo using the URL you copied:
 
 ```
-git clone https://your-fork.git
+git clone https://your-forks-url.git
 ```
 
-## 2. The Scavenger Hunt
+## 2. Scavenger Hunting!
 
-Okay, with setup out of the way you can finally start scavenger hunting! 🎉
+Now that your team is all set up, it’s time to begin the hunt! 🎉
 
-Your team has been assigned the task of maintaining a long forgotten project which used to run your company's super high-tech computer network.
+Your team has been tasked with maintaining a long-abandoned project that once powered your company’s highly sophisticated computer network.
 
-But the maintainers have gone missing and it's up to you to get it back to its former working glory!
+Unfortunately, the original maintainers have mysteriously disappeared, and it’s now up to you to bring the project back to its former working glory!
 
-Lucky for you, you've been sent some helpful instructions on how to get started:
+Luckily, they left behind a few instructions to help you get started:
 
-> Dear new maintainers,
-> 
-> This project is riddled with bugs and unnecessary branches. There's a to-do list in the main code file and instructions on how to organize your team in CONTRIBUTING.md. You may find those useful.
-> 
-> Thanks and good luck,
-> [Inked out name]
-> 
-> PS. You may need to install Python
+> **Dear new maintainers,**
+>
+> This project is riddled with bugs and unnecessary branches. There’s a to-do list in the main code file, along with instructions for organizing your team in `CONTRIBUTING.md`. You may find those useful.
+>
+> Good luck,
+>
+> *[Inked-out name]*
+>
+> **P.S.** You may need to install Python.
 
-...Well, that was sort of helpful. Anyways, good luck!
+Well... that was sort of helpful.
+
+Anyways, good luck!
 
 ## 3. Running
 

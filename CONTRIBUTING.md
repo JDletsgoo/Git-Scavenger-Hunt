@@ -37,7 +37,6 @@ Check what you've changed with:
 
 ```bash
 git status
-git diff
 ```
 
 When you're happy with your changes, stage and commit them:
@@ -83,15 +82,7 @@ Do **not** merge your own Pull Request immediately. Have another group member re
 
 A group member should review the Pull Request.
 
-If changes are requested:
-
-1. Make the requested changes on your existing branch.
-2. Commit them.
-3. Push the branch again.
-
-The Pull Request will automatically update.
-
-Once the group is happy with the changes, merge the Pull Request into `main`.
+For learning purposes, try requesting a change. Once you're satisfied with the changes, merge the Pull Request into `main`.
 
 ## 7. Clean Up
 
@@ -137,7 +128,6 @@ main
 ### Rules to Remember
 
 - **Never commit directly to `main`.**
-- Keep branches **short-lived** and focused on one task.
 - Pull from `main` before starting new work.
 - Open a Pull Request when your work is ready.
 - Have another group member review your Pull Request.
