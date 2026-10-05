@@ -29,7 +29,7 @@ On GitHub, click **Sign Up** at the top of the page. Any email will work for thi
 git --version
 ```
 
-2. If the command fails, install Git from here: https://git-scm.com/install/windows
+2. If the command fails, install Git from here: https://git-scm.com/install. **If you're on macOS:** It's recommended you install Git using Homebrew. Homebrew install instructions are here: https://brew.sh/
 
 3. Once Git is installed, you will need to enter these commands into your terminal (Make sure to change the name and email):
 
@@ -67,7 +67,7 @@ gh auth login
 
 ## 1.3 Fork the Repository
 
-**Only one participant needs to complete these steps:**
+**Only one participant from each group needs to complete these steps:**
 
 1. Scroll to the top of the page and hit the **Fork** button.
 
